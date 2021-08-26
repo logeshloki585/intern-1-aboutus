@@ -244,7 +244,7 @@
     flex-direction: column;
     
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
     height: auto;
     background-color: whitesmoke;
 }
@@ -289,6 +289,20 @@
     flex-wrap: wrap;
 }
 
+.logos{
+    min-height: 20vh;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.logos img{
+    height:80px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 @media (max-width:480px){
     .title_block .title_txt{
