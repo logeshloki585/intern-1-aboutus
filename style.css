@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.title_img{
+    width: 100%;
+    /* min-height: 200px; */
+    height: auto;
+    position:relative;
+    display: inline-block;
+}
+
+.title_img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.title_block .title_txt{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    font-weight: lighter;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+
+}
