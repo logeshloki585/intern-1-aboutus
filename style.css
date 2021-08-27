@@ -19,11 +19,12 @@
 
 .route{
     width: 100%;
-    height: 50px;
+    height: 70px;
     margin-top: -6px;
     background-color: rgb(243, 243, 243);
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -33,6 +34,10 @@
     font-size: 12px;
     margin-left: 20px;
     margin-top: 11px;
+}
+
+.route h3{
+    font-size: 14px;
 }
 
 #about_black{
@@ -70,6 +75,11 @@
 
 .offer_content{
     margin-left: 50px;
+}
+
+#buttonf{
+    background-image: linear-gradient(to right top, #1af2e5, #00def1, #00c8f8, #00b0f7, #1296eb);
+    color: white;
 }
 
 .offer_button button{
@@ -292,7 +302,7 @@
 }
 
 .logos{
-    min-height: 40vh;
+    min-height: 30vh;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -308,6 +318,12 @@
 }
 
 @media (max-width:480px){
+
+    .offering img{
+        min-height: 150px;
+        width: auto;
+    }
+
     .title_block .title_txt{
         top: 20%;
         font-size: 19px;
@@ -370,7 +386,7 @@
     margin-left: 10px;
     margin-right: 10px;
     height: 400px;
-    width: 400px;
+    width: 380px;
 }
 
 
