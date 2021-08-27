@@ -352,10 +352,7 @@
     font-size: 14px;
 }
 
-.contact_about h2:hover{
-    background-color: white;
 
-}
 
 .contact_about button{
     width: 130px;
@@ -544,6 +541,11 @@
 
 .contact_about{
     margin-top: 50px;
+}
+
+.logos{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
  
 
