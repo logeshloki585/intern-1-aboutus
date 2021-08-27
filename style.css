@@ -312,6 +312,144 @@
     margin-right: 20px;
 }
 
+#contact{
+    width: 100%;
+    min-height: 60vh;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:40px ;
+    padding-right: 40px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(46, 44, 44, 0.979);
+}
+
+.copywrite{
+    height: 10vh;
+    background-color: rgb(47, 47, 68);
+}
+
+.contact_about{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.contact_about h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.contact_about p{
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+
+.contact_about h2:hover{
+    background-color: white;
+
+}
+
+.contact_about button{
+    width: 130px;
+    height: 50px;
+    background-image: linear-gradient(to right top, #1af2e5, #00def1, #00c8f8, #00b0f7, #1296eb);
+    color: white;
+    border: none;
+}
+
+.contact_info h2,.contact_useful h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-weight: 400;
+
+}
+
+.contact_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.contact_info p{
+    color: grey;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#contact_number{
+    width: 170px;
+}
+
+#contact_number:hover{
+    background-color: white;
+    color: rgb(104, 167, 11);
+}
+
+.contact_info h4{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.contact_info h3{
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.icons{
+    text-decoration: none;
+}
+
+.useful{
+    display: flex;
+    margin-top: 30px;
+}
+
+.contact_useful{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.useful_p{
+    font-size: 14px;
+    color: grey;
+    margin: 10px;
+    
+}
+
+.useful_p:hover{
+    color: rgb(136, 219, 11);
+    transition: 1s;
+}
+
+.copywrite{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    align-items: center;
+}
+
+.copy_txt{
+    font-size: 14px;
+    color: grey;
+    font-weight: 300;
+}
+
 @media (max-width:480px){
 
     .offering img{
@@ -396,6 +534,16 @@
 
 .info_cart:hover{
     margin-top: 2px;
+}
+
+.contact_info{
+    margin-left: -50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact_about{
+    margin-top: 50px;
 }
  
 
