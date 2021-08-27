@@ -178,7 +178,8 @@
 }
 
 .fact{
-    height: 70vh;
+    min-height: 70vh;
+    height: auto;
     width: 100%;
     background-image: url(https://livedemo00.template-help.com/wt_prod-8697/images/bg-image-2-1920x1121.jpg);
     display: table;
@@ -257,6 +258,7 @@
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 40px;
+    box-shadow: 0px 1px 19px rgb(70, 63, 63)
 }
 
 .client_detail{
@@ -290,10 +292,11 @@
 }
 
 .logos{
-    min-height: 20vh;
+    min-height: 40vh;
     height: auto;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -348,6 +351,7 @@
 
 .fact_count_block{
     padding-left: 80px;
+    
 }
 
 
@@ -358,6 +362,14 @@
     
 }
 
+.clients{
+    margin-top: 10px;
+}
+
+.client_cart{
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
 
 }
