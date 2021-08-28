@@ -519,6 +519,10 @@
     width: 360px;
 }
 
+.fact_heading{
+    font-size: 40px;
+}
+
 .offer_button{
     margin-right: -20px;
 }
@@ -554,6 +558,7 @@
 
 .fact_count{
     justify-content: center;
+    margin-left: -10px;
 }
  
 
