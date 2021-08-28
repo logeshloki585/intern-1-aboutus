@@ -200,7 +200,7 @@
 }
 
 .fact_heading{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
     color: white;
     padding-top: 100px;
@@ -223,7 +223,7 @@
 .fact_line{
     height: 1px;
     width: 100px;
-    margin-left: 15px;
+    margin-left: 5px;
     margin-bottom: 20px;
     border-top: 2px solid rgb(60, 162, 202);
 }
@@ -231,6 +231,10 @@
 .fact_count_block{
     margin-left: 50px;
     margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .fact_count_block h1{
